@@ -1,0 +1,2 @@
+Place your headshot.jpg file in this folder (public/).
+The Hero section references /headshot.jpg — Vite serves files from public/ at the root.
