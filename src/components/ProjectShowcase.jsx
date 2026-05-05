@@ -123,7 +123,7 @@ function ProductivityTools({ visible }) {
           <h3 className="text-2xl font-bold text-white mb-4">Productivity Tools Suite</h3>
 
           <div className="flex flex-wrap gap-2 mb-6">
-            {['React', 'JavaScript', 'CSS', 'Local Storage', 'Web APIs'].map(tag => (
+            {['React', 'JavaScript', 'LLM APIs', 'CSS', 'Local Storage', 'Web APIs'].map(tag => (
               <span key={tag} className="px-3 py-1 text-xs font-mono rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
                 {tag}
               </span>
@@ -131,15 +131,17 @@ function ProductivityTools({ visible }) {
           </div>
 
           <p className="text-slate-300 leading-relaxed mb-6">
-            A collection of focused productivity tools built for daily use. Features a
-            <span className="text-indigo-400 font-semibold"> Pomodoro Timer</span> with focus, short break,
-            and long break modes, alongside a
-            <span className="text-indigo-400 font-semibold"> Speed Reader</span> with library management,
-            collections, import/export, and adjustable reading speed.
+            A growing suite of productivity tools built for daily use. Includes a
+            <span className="text-indigo-400 font-semibold"> Pomodoro Timer</span> with focus/break modes, a
+            <span className="text-indigo-400 font-semibold"> Speed Reader</span> with library management and adjustable WPM, and a
+            <span className="text-indigo-400 font-semibold"> Smart Todo</span> app that uses LLMs to predict task durations
+            and intelligently allocates your day based on time estimates, urgency, and deadlines.
           </p>
 
           <h4 className="text-white font-semibold mb-3">Key Features</h4>
           <div className="space-y-2 text-sm text-slate-400">
+            <p>→ Smart Todo with LLM-powered task duration prediction and interactive clarification prompts</p>
+            <p>→ Automatic daily time allocation based on estimated duration, urgency, and deadline</p>
             <p>→ Pomodoro timer with configurable focus/break intervals and audio notifications</p>
             <p>→ Speed reader with adjustable WPM, library persistence, and collection organization</p>
             <p>→ Clean, minimal UI designed for distraction-free productivity</p>
